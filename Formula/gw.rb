@@ -2,16 +2,16 @@
 class Gw < Formula
   desc "A CLI used to deploy assets to a Tyler Technologies Kong API Gateway deployment"
   homepage "https://github.com/tyler-technologies/api-gateway-cli"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tyler-technologies/api-gateway-cli/releases/download/v0.0.4/gw_0.0.4_macos_x64.tar.gz"
-    sha256 "d47f4b7ac5e0293556e1d60efaf2c29b122827419941fe183551f80b1c4eb347"
+    url "https://github.com/tyler-technologies/api-gateway-cli/releases/download/v0.0.5/gw_0.0.5_macos_x64.tar.gz"
+    sha256 "425d0b654197c72a761df5fb1ccab536e43973bbe3b969112b97943648c8d225"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tyler-technologies/api-gateway-cli/releases/download/v0.0.4/gw_0.0.4_linux_x64.tar.gz"
-      sha256 "84e7b5fddd1d2d13810ce38b4ba1746f7c4d50396fe6acc838199b35ac71f4ca"
+      url "https://github.com/tyler-technologies/api-gateway-cli/releases/download/v0.0.5/gw_0.0.5_linux_x64.tar.gz"
+      sha256 "b4f52f9bbe683e9442afe2782da354d0daa2910cdd4f71f362f108b06a7783cc"
     end
   end
 
